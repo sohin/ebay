@@ -29,7 +29,7 @@ require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 //
 // // Read in a page
-$html = scraperwiki::scrape("http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR0.TRC0.H0.XAmerican+Revolutionary+War&_nkw=American+Revolutionary+War&_sacat=0");
+$html = scraperwiki::scrape("http://www.ebay.com/sch/m.html?_nkw=&_armrs=1&_from=&LH_Complete=1&LH_Sold=1&_ssn=offroadbelts&_ipg=200&rt=nc");
 //
 // // Find something on the page using css selectors
 $dom = new simple_html_dom();
